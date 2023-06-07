@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WilliamLike Checkmate</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/65fe87a5fb.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/WLCM.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#socials">Socials</a></li>
+            <li><a href="#chesspuzzles">Puzzles</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Chess Streamer</p>
+          <h1>
+            Hi, I'm <span>William</span> Bas<br />from Sto. Domingo, Albay
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!--------------------About Me----------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/william.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <div class="content">
+               <p>
+                Hello mga Ka-Checkmate, I'm William and I recently completed my Bachelor's degree in Computer Science at Bicol University. One of my main endeavors has been streaming chess, and I embarked on this journey with multiple objectives in mind. Firstly, my intention was to share my immense passion for the game of chess with a wider audience. By streaming, I sought to create a platform where I could engage with fellow enthusiasts and foster a community centered around this intellectually stimulating and captivating game.
+              </p>
+              <p>
+                Moreover, my goal extended beyond simply streaming games. I aimed to develop a vibrant chess community where players of all skill levels could come together to learn, discuss strategies, and appreciate the intricacies of the game. Through interactive sessions, I strived to encourage viewers to actively participate, share their insights, and collectively enhance our understanding of chess.
+              </p>
+              <p>
+                Additionally, teaching and mentoring children became a significant part of my streaming journey. I firmly believe that teaching is a powerful way to deepen one's own understanding, and I wanted to employ this principle while introducing chess to young minds. By presenting the game in a fun and engaging manner, I aimed to make chess accessible to children, providing them with an avenue to learn and grow their analytical skills, critical thinking abilities, and decision-making prowess.
+              </p>
+              <p>
+                Overall, my streaming endeavors were driven by the belief that by teaching others, we not only contribute to their growth but also enhance our own knowledge and expertise. Through my streams, I aspired to create a positive and educational space, where viewers could embrace their love for chess, connect with a passionate community, and experience the joy of both playing and learning.
+              </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Career')">
+                Chess Player Career
+              </p>
+              <p class="tab-links" onclick="opentab('Achievement')">
+                Chess Achievements
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="Career">
+              <ul>
+                <li>
+                  <span>Elementary</span><br />Sto. Domingo Central School
+                  Representative 2007-2013
+                </li>
+                <li>
+                  <span>Secondary</span><br />Sto. Domingo National High School
+                  2013-2019
+                </li>
+                <li>
+                  <span>Tertiary</span><br />Bicol University College of Science
+                  Representative 2019-2023
+                </li>
+                <li>
+                  <span>Top College</span><br />August 2022 Magayon Monthly Open
+                  Chess Tournament
+                </li>
+                <li>
+                  <span>Champion</span><br />CSIT Days 2023-Board Game Chess
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Achievement">
+              <ul>
+                <li>
+                  <span>National Trainer</span><br />National Chess Federation of the Philippines Trainers Licensing Seminar
+                </li>
+                <li>
+                  <span>Chess Organizations Affiliated</span><br />National
+                  Chess Federation of the Philippines
+                </li>
+                <li><span>Chess Coach</span><br />Teaching 2 kids-Present</li>
+                <li>
+                  <span>Chess Club President</span><br />Sto. Domingo Chess Club
+                </li>
+                <li>
+                  <span>Chess Streamer</span><br />WilliamLike Checkmate FB Page
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--------------------Socials----------------------------->
+
+<div id="socials">
+      <div class="container">
+        <h1 class="sub-title">Socials</h1>
+        <div class="socials-list">
+            <div>
+              <i class="fa-brands fa-youtube"></i>
+              <h2>Youtube</h2>
+              <p>WilliamLike Checkmate</p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-instagram"></i>
+              <h2>Instagram</h2>
+              <p>williamlike_checkmate</p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-tiktok"></i>
+              <h2>Tiktok</h2>
+              <p>williamlikecheckmate</p>
+              <a href="#">Learn more</a>
+            </div>
+        </div>
+      </div>
+</div>
+<!--------------------Puzzles----------------------------->
+<div id="chesspuzzles">
+      <div class="container">
+        <h1 class="sub-title">Puzzles</h1>
+        <div class="puzzles-list">
+          <div class="puzzles">
+            <img src="images/puzzle1.png">
+            <div class="layer">
+              <h3><span>Paul Morphy’s problem</span></h3>
+              <h4><span>White to move and mate in 2</span></h4>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="puzzles">
+            <img src="images/puzzle2.png">
+            <div class="layer">
+              <h3><span>James Mason vs. Georg Marco</span></h3>
+              <h4><span>Black to move and mate in 2</span></h4>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="puzzles">
+            <img src="images/puzzle3.png">
+            <div class="layer">
+              <h3><span>Wilhelm Steinitz vs. David Sands</span></h3>
+              <h4><span>White to move and mate in 2</span></h4>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+</div>
+<!--------------------Contact----------------------------->
+<div id="contact">
+  <div class="container">
+      <div class="row">
+          <div class="contact-left">
+                <h1 class="sub-title">Contant Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>williambas.2000@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>09126453325</p>
+                <div class="social-icons">
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-youtube"></i></a>
+                  <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                  <a href="images/cv.pdf"  download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+          </div>
+      </div>
+  </div>
+    <div class="copyright">
+      <p>Copyright @Kevin. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+
+
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px";
+      }
+
+
+
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwgxcJtWJoWUADeenRUMHEmhvvurTPL5ucTaRB5PJjM01_u4zvelwRdcnMNn1Ppp2p8/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML ="Message Sent Successfully"
+            setTimeout(function(){
+              msg.innerHTML=""
+            }, 5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
